@@ -1,0 +1,98 @@
+/* em:font size of the parent, in the case of typographical properties like font-size and
+and font size of the element itself ,in the case of other properties like width. */
+
+#outer{
+    height: 400px;
+    width: 400px;
+    border: 2px solid black;
+    background-color: pink;
+    font-size: 10px;
+}
+
+
+#inner{
+    height: 100px;
+    width: 100px;
+    background-color: cornflowerblue;
+    font-size: 3em;
+    padding: 1em;
+}
+
+button{
+    font-size:50px;
+    border-radius: 15px;
+    border: 5px solid green;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+/*rem:font size of the root element*/
+
+section{
+    font-size: 15px;
+}
+
+div{
+    font-size: 0.5rem;
+}
+
+
+
+/*  practiseqs: Ans 1
+Inside HTML, create
+<div id="box">My Box</div>
+
+Inside CSS, write
+#box {
+height: 150px;
+width: 300px;
+background-color: grey;
+border: 5px dotted black;
+margin: 20px 1em 40px 2em;
+padding: 1em;
+}
+
+
+Ans 2
+Inside HTML, create
+<div class="box"></div>
+<div class="box"></div>
+<div class="box"></div>
+
+Inside CSS, write
+.box {
+    height: 100px;
+width: 100px;
+background-color: pink;
+border: 2px solid black;
+border-radius: 50%;
+display: inline-block;
+}
+
+
+Ans 3
+Inside HTML, create
+<h1>Technologies</h1>
+<ul>
+<li>HTML</li>
+<li>CSS</li>
+<li>JavaScript</li>
+<li>NodeJS</li>
+<li>SQL</li>
+<li>MongoDB</li>
+<li>ReactJS</li>
+<li>Java</li>
+<li>C++</li>
+<li>C</li>
+<li>Python</li>
+</ul>
+
+Inside CSS, write
+li {
+    display: inline;
+    }
+
+    Li (list items) have their display property set to “list-item” by default which
+makes them a bulleted list item.
+When this property is reset by you to “inline”, then the bullet points also
+disappear. In a way, we override the default settings with our CSS. */

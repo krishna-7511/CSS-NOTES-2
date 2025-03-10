@@ -1,0 +1,33 @@
+/* h2{
+    display: inline;
+    background-color: aliceblue;
+}
+
+span{
+    display: block;
+    background-color: yellowgreen;
+} */
+
+
+/* height and weight will be ignored diplaying in inline*/
+/* 
+span{
+    background-color: lime;
+    border:2px black solid;
+    height:100px;        
+    width:200px;
+    padding: 50px;     left and right will set in padding and margin
+} */
+
+div{
+    height:200px;
+    width:200px;
+    background-color: yellow;      /* display inline it will not reflected changes*/
+    border:2px black solid;
+    margin: 5px;
+    display: inline-block;
+}
+
+#third{
+    display: none;
+}

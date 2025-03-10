@@ -1,0 +1,32 @@
+/* CSS transitions allow you to change property values smoothly
+(over a specified duration) rather than instantly */
+
+
+/* div{
+    height: 200px;
+    width: 200px;
+    background-color: #4dff00ff;
+    transition-duration: 1s;
+    transition-delay: 1s;
+
+}
+
+div:hover{
+    background-color: black;
+    border-radius: 50%;
+} */
+
+div{
+    height: 100px;
+    width: 100px;
+    background-color: #4dff00ff;
+   margin:0 auto;
+   margin-top: 10px;
+   transition: margin-top2s ease 0.2s;
+
+}
+
+div:hover{
+    margin-top: 400px;
+    background-color: rgba(218, 37, 137, 0.5);
+} 

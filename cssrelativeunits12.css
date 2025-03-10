@@ -1,0 +1,24 @@
+/* percentages:the percentage value is always relative to another property,
+such as the parent element's size or another specific reference.
+
+ex: width 33.33% rlative to the parent
+margin-left:50% relative to the parent size */
+
+
+h1{
+    border:2px solid black;
+    width:50%;
+}
+
+#outer{
+    height:300px;
+    width: 300px;
+    background-color: pink;
+    margin: 50px;
+}
+#inner{
+    height:100px;
+    width: 100px;
+    background-color: pink;
+    margin: 50px;
+}

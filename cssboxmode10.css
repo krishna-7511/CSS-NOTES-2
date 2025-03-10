@@ -1,0 +1,118 @@
+/* box model in css:
+height:By default, it sets the content area height of the element */
+
+div{
+    height: 200px;
+}
+
+/* width:By default, it sets the content area width of the element */
+
+div{
+    width:500px;
+    background-color: pink;
+}
+
+/* used to set an elements border
+border-width
+border-style
+border-color   */
+
+/* div{
+    border-width:5px;
+   border-style:solid;
+   border-color:black;
+} */
+h1{
+    /* border-width:2px;
+   border-style:dashed;
+   border-color:green; */
+
+   border:2px dashed green;
+   margin:0px;
+}
+
+/* border shorthand 
+width | style | color        above border property will be written is single line also below is the example
+
+div{
+  border:2px solid blue;
+}
+
+*/
+
+div{
+    border:5px solid black;
+  }
+
+  /* border sides 
+  border-left;
+  border-right;
+  border-top;
+  border-bottom;
+  
+  */
+
+  div{
+    border:5px solid yellow;
+    border-left-color: blue;
+    border-left-style: dashed;
+    border-top:5px dashed blue;
+    border-radius: 10px;
+    padding-top: 10px;
+    margin: 20px 30px 40px 50px;
+  }
+
+
+  /*border radius:
+  used to round the corners of an elements outer border edge
+  div{
+    border-radius:15px;
+  }
+    div{
+    border-radius:50%;
+  }
+  
+  */
+
+/* padding:
+padding-left;
+padding-right;
+padding-top;
+padding-bottom;*/
+
+
+/* padding shorthand :
+1.for all 4 sides 
+padding:50px;
+
+2.top & bottom | left & right
+padding::after 1px 2px;
+
+3.top|left & right | bottom
+padding 1px 2px 3px;
+
+
+4.clockwise:
+top|right|bottom|left
+padding: 1px 2px 3px 4px; */
+
+
+button{
+    border: 2px solid balck;
+    border-radius: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color: yellow;
+}
+
+
+/*Margin:TO set spacing on the outside of border
+Margin-left;
+Margin-right;
+Margin-top;
+Margin-bottom;
+
+
+*/
+
+

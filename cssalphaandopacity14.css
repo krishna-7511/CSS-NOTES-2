@@ -1,0 +1,15 @@
+/* alpha channel:
+The opacity property sets the transparency of an entire element, including its children. */
+
+
+div{
+    height: 200px;
+    width:200px;
+    background-color: #4dff00ff;
+    
+}
+
+#opacity{
+    background-color: #ffa511;
+    opacity: 0.5;
+}
