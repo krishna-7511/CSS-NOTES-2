@@ -50,3 +50,184 @@ div{
     top:100px;
     left: 100px;
 }
+
+
+/*
+
+   Relative
+Definition: The element is positioned relative to its normal position.
+
+Characteristics:
+
+Accepts top, right, bottom, left.
+
+Moves from its original location but leaves an empty space where it would have been.
+
+Example:
+
+<style>
+  .relative-position {
+    position: relative;
+    top: 20px;
+    left: 30px;
+    background-color: lightgreen;
+  }
+</style>
+<div class="relative-position">Relative Position</div>
+3. Absolute
+Definition: The element is positioned relative to the nearest positioned 
+(not static) ancestor. based on the its parent
+
+Characteristics:
+
+Removed from the normal document flow.
+
+Accepts top, right, bottom, left.
+
+If no positioned ancestor, it will be relative to the document body.
+
+Example:
+
+<style>
+  .absolute-position {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    background-color: lightcoral;
+  }
+  .relative-container {
+    position: relative;
+    height: 150px;
+    background-color: lightgray;
+  }
+</style>
+<div class="relative-container">
+  <div class="absolute-position">Absolute Position</div>
+</div>
+4. Fixed
+Definition: The element is positioned relative to the browser window, even when the page is scrolled.
+
+Characteristics:
+
+Removed from the normal flow.
+
+Stays in the same place even when scrolling.
+
+Example:
+
+<style>
+  .fixed-position {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    background-color: yellow;
+  }
+</style>
+<div class="fixed-position">Fixed Position</div>
+5. Sticky
+Definition: The element toggles between relative and fixed depending on the scroll position.
+
+Characteristics:
+
+Starts as relative, but becomes fixed when a certain point is reached.
+
+Requires top, right, bottom, or left.
+
+Example:
+
+<style>
+  .sticky-position {
+    position: sticky;
+    top: 0;
+    background-color: orange;
+    padding: 10px;
+  }
+</style>
+<div class="sticky-position">Sticky Position</div>
+<p>Scroll down to see the sticky effect.</p>
+<p style="height: 2000px;">Content...</p>
+HTML Code to Demonstrate All Positions
+
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    .static-position {
+      position: static;
+      background-color: lightblue;
+      padding: 5px;
+      margin: 5px;
+    }
+
+    .relative-position {
+      position: relative;
+      top: 20px;
+      left: 30px;
+      background-color: lightgreen;
+      padding: 5px;
+      margin: 5px;
+    }
+
+    .absolute-position {
+      position: absolute;
+      top: 50px;
+      left: 50px;
+      background-color: lightcoral;
+      padding: 5px;
+    }
+
+    .relative-container {
+      position: relative;
+      height: 150px;
+      background-color: lightgray;
+      margin: 5px;
+    }
+
+    .fixed-position {
+      position: fixed;
+      top: 10px;
+      right: 10px;
+      background-color: yellow;
+      padding: 5px;
+    }
+
+    .sticky-position {
+      position: sticky;
+      top: 0;
+      background-color: orange;
+      padding: 5px;
+      margin: 5px;
+    }
+  </style>
+</head>
+<body>
+
+<div class="static-position">Static Position</div>
+<div class="relative-position">Relative Position</div>
+
+<div class="relative-container">
+  <div class="absolute-position">Absolute Position</div>
+</div>
+
+<div class="fixed-position">Fixed Position</div>
+
+<div class="sticky-position">Sticky Position</div>
+<p>Scroll down to see the sticky effect.</p>
+<p style="height: 1000px;">Content...</p>
+
+</body>
+</html>
+Summary
+Static: Default, follows normal flow.
+
+Relative: Relative to itself, retains space.
+
+Absolute: Relative to the nearest positioned ancestor.
+
+Fixed: Fixed relative to the viewport.
+
+Sticky: Switches between relative and fixed when scrolling.
+
+
+
+*/
